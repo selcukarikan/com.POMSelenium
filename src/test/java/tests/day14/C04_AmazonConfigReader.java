@@ -5,14 +5,17 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.AmazonPage;
 import utilites.ConfigReader;
+import utilities.TestBase;
 
-public class C04_AmazonConfigReader extends utilities.TestBase {
+
+public class C04_AmazonConfigReader extends TestBase {
 
 
     @Test
     public void test(){
         //amazon sayfasina gidip
         driver.get(ConfigReader.getProperty("amazonUrl"));
+
         AmazonPage amazonPage=new AmazonPage(driver);
         //nutella icin arama yapiniz
         amazonPage.suchBox.sendKeys(ConfigReader.getProperty("amazonArananKelime")+Keys.ENTER);
