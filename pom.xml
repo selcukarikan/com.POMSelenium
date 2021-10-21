@@ -34,7 +34,6 @@
             <scope>test</scope>
         </dependency>
 
-
         <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
         <dependency>
             <groupId>com.github.javafaker</groupId>
@@ -43,7 +42,5 @@
         </dependency>
 
     </dependencies>
-
-
 
 </project>
