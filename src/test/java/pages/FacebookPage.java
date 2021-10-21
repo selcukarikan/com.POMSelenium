@@ -25,6 +25,6 @@ public class FacebookPage {
 
     public void cookies(){
         driver.findElement(By.xpath("//button[@class='_42ft _4jy0 _9xo7 _4jy3 _4jy1 selected _51sy']")).click();
-//
+
    }
 }
