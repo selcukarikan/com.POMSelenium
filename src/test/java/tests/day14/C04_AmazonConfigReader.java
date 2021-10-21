@@ -17,7 +17,7 @@ public class C04_AmazonConfigReader extends utilities.TestBase {
         //nutella icin arama yapiniz
         amazonPage.suchBox.sendKeys(ConfigReader.getProperty("amazonArananKelime")+Keys.ENTER);
 
-        //sonc sayisini yazdirin ve sonuc yazisinin nutella icerdigini test ediniz
+        //sonc sayisini yazdirin ve sonuc yazisinin nutella icerdigini test ediniz.
         System.out.println(amazonPage.ergebnissen.getText());
         Assert.
                 assertTrue(amazonPage.ergebnissen.getText().
