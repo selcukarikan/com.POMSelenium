@@ -14,7 +14,7 @@ public class ConfigReader {
     //ve oradaki key value ikililerini kullanarak istedigimiz key e ait valueyi bize getirmek
 
     static {
-        String dosyaYolu="src/test/java/utilites/ConfigReader.java";
+        String dosyaYolu="configuration.properties";
         try {
             FileInputStream fileInputStream=new FileInputStream(dosyaYolu);
             properties=new Properties();
