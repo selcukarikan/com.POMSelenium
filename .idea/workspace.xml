@@ -39,6 +39,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C01_DriverClassKullanimi" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.SeleniumPOm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day15" />
+      <option name="MAIN_CLASS_NAME" value="tests.day15.C01_DriverClassKullanimi" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C01_DriverClassKullanimi.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.SeleniumPOm" />
       <extension name="coverage">
@@ -69,23 +86,6 @@
       <option name="MAIN_CLASS_NAME" value="tests.day14.C02_ConcortHotelNegativeTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03_PositiveTestConfigReaderIle" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.SeleniumPOm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day14" />
-      <option name="MAIN_CLASS_NAME" value="tests.day14.C03_PositiveTestConfigReaderIle" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -130,10 +130,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C01_DriverClassKullanimi.test" />
+        <item itemvalue="TestNG.C01_DriverClassKullanimi" />
         <item itemvalue="TestNG.C04_AmazonConfigReader" />
         <item itemvalue="TestNG.C03_PositiveTestConfigReaderIle.positiveTestConfig" />
         <item itemvalue="TestNG.C02_ConcortHotelNegativeTest.test" />
-        <item itemvalue="TestNG.C03_PositiveTestConfigReaderIle" />
       </list>
     </recent_temporary>
   </component>
