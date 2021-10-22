@@ -34,7 +34,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="TestNG.C02_E2ETest.test">
+  <component name="RunManager" selected="TestNG.C02_E2ETest">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,8 +136,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C02_E2ETest.test" />
         <item itemvalue="TestNG.C02_E2ETest" />
+        <item itemvalue="TestNG.C02_E2ETest.test" />
         <item itemvalue="TestNG.NegativeTest" />
         <item itemvalue="TestNG.NegativeTest.falsechePassword" />
         <item itemvalue="TestNG.NegativeTest.negativeTest" />
@@ -167,14 +167,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/tests/smokeTest/NegativeTest.java</url>
           <line>8</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/tests/day15/C02_E2ETest.java</url>
-          <line>8</line>
-          <properties class="tests.day15.C02_E2ETest" method="test">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

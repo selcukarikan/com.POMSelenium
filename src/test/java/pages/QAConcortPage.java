@@ -38,6 +38,56 @@ public class QAConcortPage {
     @FindBy(partialLinkText = "Hotel List")
     public WebElement hotelListLink;
 
+    @FindBy(xpath = "//span[text()='Add Hotel ']")
+    public WebElement addHotelLink;
+
+    @FindBy(id="Code")
+    public WebElement addHotelCodeKutusu;
+
+    @FindBy(id="IDGroup")
+    public WebElement addHotelDropdown;
+
+    @FindBy(id="btnSubmit")
+    public WebElement addHotelSave;
+
+    @FindBy(xpath="//div[@class='bootbox-body']")
+    public WebElement addHotelSuccesfullYazisi;
+
+    @FindBy(xpath="//button[@class='btn btn-primary']")
+    public WebElement addHotelAllertOk;
+
+    @FindBy(partialLinkText = "Hotel Rooms")
+    public WebElement hotelRoomsLinki;
+
+    @FindBy(xpath ="//span[text()='Add Hotelroom ']")
+    public WebElement addHotelRoomButonu;
+
+    @FindBy(id="IDHotel")
+    public WebElement addRoomIdDropdown;
+
+    @FindBy(id="IDGroupRoomType")
+    public WebElement addRoomType;
+
+    @FindBy(id="btnSubmit")
+    public WebElement addRoomSaveButonu;
+
+    @FindBy(xpath = "//div[@class='bootbox-body']")
+    public WebElement addRoomSuccessfulYazisi;
+
+    @FindBy(xpath = "//button[@class='btn btn-primary']")
+    public WebElement addRoomAllertOkButonu;
+
+    @FindBy(linkText = "Hotelrooms")
+    public WebElement addroomHotelRoomsLinki;
+
+    @FindBy(xpath ="//span[text()='List Of Hotelrooms']")
+    public WebElement addRoomHotelRoomListyazisi;
+
+
+
+
+
+
     public void ConcortHotelLogin() {
         Driver.getDriver().get(ConfigReader.getProperty("CHQAUrl"));
         QAConcortPage qaConcortPage = new QAConcortPage();
