@@ -7,6 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 import utilites.ConfigReader;
 import utilites.Driver;
 
+import java.util.List;
+
 public class QAConcortPage {
     WebDriver driver;
 
@@ -83,7 +85,20 @@ public class QAConcortPage {
     @FindBy(xpath ="//span[text()='List Of Hotelrooms']")
     public WebElement addRoomHotelRoomListyazisi;
 
+    @FindBy(xpath = "//thead/tr[1]/th")
+    public List<WebElement> basliklarListesi;
 
+    @FindBy(xpath = "//tbody")
+    public WebElement tBodyTumu;
+
+    @FindBy(xpath = "//tbody//tr")
+    public List<WebElement> satirlarListesi;
+
+    @FindBy(xpath = "//tbody//tr[1]")
+    public WebElement birinciSatir;
+
+    @FindBy(xpath = "//tbody/tr//td[4]")
+    public List<WebElement> dorduncuSutunListesi;
 
 
 
