@@ -11,6 +11,16 @@ public class C01_DriverClassKullanimi {
         Driver.getDriver().get(ConfigReader.getProperty("facebookUrl"));
         Driver.getDriver().get(ConfigReader.getProperty("CHUrl"));
 
+        // Driver driver=new Driver();
+        //Driver classindan obje olusturulmamasini istedigimiz icin Driver classi Singletib yapiyoruz
+        //bunun icin default constructor yerine parametresiz bir constructor olusturup
+        //acces modifieri private yapiyoruz
+
+
+        //Driver driver=new Driver("ben istedim olmadi");
+        //Driver classinda parametreli constructor olmadigi icin kullanamayiz
+
+
         Driver.closeDriver();
     }
 }

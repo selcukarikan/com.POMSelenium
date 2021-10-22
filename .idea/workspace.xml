@@ -10,6 +10,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -27,7 +34,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="TestNG.C01_DriverClassKullanimi.test">
+  <component name="RunManager" selected="TestNG.NegativeTest">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -39,16 +46,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_DriverClassKullanimi" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NegativeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.SeleniumPOm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day15.*" />
+          <option name="PATTERN" value="tests.smokeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day15" />
-      <option name="MAIN_CLASS_NAME" value="tests.day15.C01_DriverClassKullanimi" />
+      <option name="PACKAGE_NAME" value="tests.smokeTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.smokeTest.NegativeTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -56,17 +63,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_DriverClassKullanimi.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NegativeTest.falsechePassword" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.SeleniumPOm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day15.*" />
+          <option name="PATTERN" value="tests.smokeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day15" />
-      <option name="MAIN_CLASS_NAME" value="tests.day15.C01_DriverClassKullanimi" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="tests.smokeTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.smokeTest.NegativeTest" />
+      <option name="METHOD_NAME" value="falsechePassword" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -74,17 +81,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_ConcortHotelNegativeTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NegativeTest.negativeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.SeleniumPOm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day14.*" />
+          <option name="PATTERN" value="tests.smokeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day14" />
-      <option name="MAIN_CLASS_NAME" value="tests.day14.C02_ConcortHotelNegativeTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="tests.smokeTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.smokeTest.NegativeTest" />
+      <option name="METHOD_NAME" value="negativeTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -92,35 +99,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_PositiveTestConfigReaderIle.positiveTestConfig" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PositiveLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.SeleniumPOm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day14.*" />
+          <option name="PATTERN" value="tests.smokeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day14" />
-      <option name="MAIN_CLASS_NAME" value="tests.day14.C03_PositiveTestConfigReaderIle" />
-      <option name="METHOD_NAME" value="positiveTestConfig" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C04_AmazonConfigReader" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.SeleniumPOm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day14" />
-      <option name="MAIN_CLASS_NAME" value="tests.day14.C04_AmazonConfigReader" />
+      <option name="PACKAGE_NAME" value="tests.smokeTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.smokeTest.PositiveLoginTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PositiveLoginTest.positiveLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.SeleniumPOm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.smokeTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.smokeTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.smokeTest.PositiveLoginTest" />
+      <option name="METHOD_NAME" value="positiveLoginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -129,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C01_DriverClassKullanimi.test" />
-        <item itemvalue="TestNG.C01_DriverClassKullanimi" />
-        <item itemvalue="TestNG.C04_AmazonConfigReader" />
-        <item itemvalue="TestNG.C03_PositiveTestConfigReaderIle.positiveTestConfig" />
-        <item itemvalue="TestNG.C02_ConcortHotelNegativeTest.test" />
+        <item itemvalue="TestNG.NegativeTest" />
+        <item itemvalue="TestNG.NegativeTest.falsechePassword" />
+        <item itemvalue="TestNG.NegativeTest.negativeTest" />
+        <item itemvalue="TestNG.PositiveLoginTest" />
+        <item itemvalue="TestNG.PositiveLoginTest.positiveLoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -147,5 +154,21 @@
       <updated>1634849998462</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/smokeTest/PositiveLoginTest.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/smokeTest/NegativeTest.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
