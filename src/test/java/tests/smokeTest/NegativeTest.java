@@ -30,7 +30,6 @@ public class NegativeTest {
         qaConcortPage.passwordKutusu.sendKeys(ConfigReader.getProperty("CHQAInValidPassword"));
         qaConcortPage.loginButton.click();
         Assert.assertTrue(qaConcortPage.loginFailedYazisi.isDisplayed());
-
     }
     @Test(dependsOnMethods = "falschePassword")
     public void falscheUsername(){
