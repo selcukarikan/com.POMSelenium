@@ -34,7 +34,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="TestNG.test03">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C01_ReadExcell.test2">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -46,51 +51,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test01" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_ReadExcel.test2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.SeleniumPOm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.practice.*" />
+          <option name="PATTERN" value="tests.day17ExcellAutomation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.practice" />
-      <option name="MAIN_CLASS_NAME" value="tests.practice.test01" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test02" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.SeleniumPOm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.practice" />
-      <option name="MAIN_CLASS_NAME" value="tests.practice.test02" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test02.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.SeleniumPOm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.practice" />
-      <option name="MAIN_CLASS_NAME" value="tests.practice.test02" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="tests.day17ExcellAutomation" />
+      <option name="MAIN_CLASS_NAME" value="tests.day17ExcellAutomation.C01_ReadExcel" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -98,7 +69,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test03" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_ReadExcell" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.SeleniumPOm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day17ExcellAutomation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day17ExcellAutomation" />
+      <option name="MAIN_CLASS_NAME" value="tests.day17ExcellAutomation.C01_ReadExcell" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C01_ReadExcell.C01_ReadExcell" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.SeleniumPOm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day17ExcellAutomation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day17ExcellAutomation" />
+      <option name="MAIN_CLASS_NAME" value="tests.day17ExcellAutomation.C01_ReadExcell" />
+      <option name="METHOD_NAME" value="C01_ReadExcell" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C01_ReadExcell.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.SeleniumPOm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day17ExcellAutomation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day17ExcellAutomation" />
+      <option name="MAIN_CLASS_NAME" value="tests.day17ExcellAutomation.C01_ReadExcell" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test03" type="TestNG" nameIsGenerated="true">
       <module name="com.SeleniumPOm" />
       <extension name="coverage">
         <pattern>
@@ -135,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.test03" />
+        <item itemvalue="TestNG.C01_ReadExcell.test2" />
+        <item itemvalue="TestNG.C01_ReadExcel.test2" />
+        <item itemvalue="TestNG.C01_ReadExcell.C01_ReadExcell" />
+        <item itemvalue="TestNG.C01_ReadExcell" />
         <item itemvalue="TestNG.test03.test" />
-        <item itemvalue="TestNG.test02" />
-        <item itemvalue="TestNG.test02.test" />
-        <item itemvalue="TestNG.test01" />
       </list>
     </recent_temporary>
   </component>
