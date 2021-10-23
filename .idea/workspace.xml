@@ -34,7 +34,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="TestNG.C02_WebTable">
+  <component name="RunManager" selected="TestNG.C01_WebTables">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,16 +81,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_E2ETest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_WebTables" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.SeleniumPOm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day15.*" />
+          <option name="PATTERN" value="tests.day17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day15" />
-      <option name="MAIN_CLASS_NAME" value="tests.day15.C02_E2ETest" />
+      <option name="PACKAGE_NAME" value="tests.day17" />
+      <option name="MAIN_CLASS_NAME" value="tests.day17.C01_WebTables" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -135,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C01_WebTables" />
         <item itemvalue="TestNG.C02_WebTable" />
         <item itemvalue="TestNG.C02_WebTable.test" />
         <item itemvalue="TestNG.C01_E2ETest2" />
         <item itemvalue="TestNG.C01_E2ETest2.RoomCreateTest" />
-        <item itemvalue="TestNG.C02_E2ETest" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +177,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/tests/smokeTest/NegativeTest.java</url>
           <line>8</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/day17/C01_WebTables.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
