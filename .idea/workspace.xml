@@ -34,7 +34,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="TestNG.C01_WebTables">
+  <component name="RunManager" selected="TestNG.test02.test">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -42,41 +42,6 @@
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C01_E2ETest2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.SeleniumPOm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.Day16.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.Day16" />
-      <option name="MAIN_CLASS_NAME" value="tests.Day16.C01_E2ETest2" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C01_E2ETest2.RoomCreateTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.SeleniumPOm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.Day16.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.Day16" />
-      <option name="MAIN_CLASS_NAME" value="tests.Day16.C01_E2ETest2" />
-      <option name="METHOD_NAME" value="RoomCreateTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,16 +63,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_WebTable" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="test01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.SeleniumPOm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.Day16.*" />
+          <option name="PATTERN" value="tests.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.Day16" />
-      <option name="MAIN_CLASS_NAME" value="tests.Day16.C02_WebTable" />
+      <option name="PACKAGE_NAME" value="tests.practice" />
+      <option name="MAIN_CLASS_NAME" value="tests.practice.test01" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -115,16 +80,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_WebTable.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="test01.n11" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.SeleniumPOm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.Day16.*" />
+          <option name="PATTERN" value="tests.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.Day16" />
-      <option name="MAIN_CLASS_NAME" value="tests.Day16.C02_WebTable" />
+      <option name="PACKAGE_NAME" value="tests.practice" />
+      <option name="MAIN_CLASS_NAME" value="tests.practice.test01" />
+      <option name="METHOD_NAME" value="n11" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test02" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.SeleniumPOm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.practice" />
+      <option name="MAIN_CLASS_NAME" value="tests.practice.test02" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test02.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.SeleniumPOm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.practice" />
+      <option name="MAIN_CLASS_NAME" value="tests.practice.test02" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -135,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.test02.test" />
+        <item itemvalue="TestNG.test02" />
+        <item itemvalue="TestNG.test01" />
+        <item itemvalue="TestNG.test01.n11" />
         <item itemvalue="TestNG.C01_WebTables" />
-        <item itemvalue="TestNG.C02_WebTable" />
-        <item itemvalue="TestNG.C02_WebTable.test" />
-        <item itemvalue="TestNG.C01_E2ETest2" />
-        <item itemvalue="TestNG.C01_E2ETest2.RoomCreateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -164,6 +164,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
