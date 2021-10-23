@@ -34,7 +34,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="TestNG.test02.test">
+  <component name="RunManager" selected="TestNG.test03">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -42,23 +42,6 @@
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C01_WebTables" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.SeleniumPOm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day17.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day17" />
-      <option name="MAIN_CLASS_NAME" value="tests.day17.C01_WebTables" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -74,24 +57,6 @@
       <option name="PACKAGE_NAME" value="tests.practice" />
       <option name="MAIN_CLASS_NAME" value="tests.practice.test01" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test01.n11" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.SeleniumPOm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.practice" />
-      <option name="MAIN_CLASS_NAME" value="tests.practice.test01" />
-      <option name="METHOD_NAME" value="n11" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -133,13 +98,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test03" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.SeleniumPOm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.practice" />
+      <option name="MAIN_CLASS_NAME" value="tests.practice.test03" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test03.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.SeleniumPOm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.practice" />
+      <option name="MAIN_CLASS_NAME" value="tests.practice.test03" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.test02.test" />
+        <item itemvalue="TestNG.test03" />
+        <item itemvalue="TestNG.test03.test" />
         <item itemvalue="TestNG.test02" />
+        <item itemvalue="TestNG.test02.test" />
         <item itemvalue="TestNG.test01" />
-        <item itemvalue="TestNG.test01.n11" />
-        <item itemvalue="TestNG.C01_WebTables" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +183,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/tests/day17/C01_WebTables.java</url>
           <line>7</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/practice/test03.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

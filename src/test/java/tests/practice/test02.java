@@ -6,8 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -56,7 +55,11 @@ WebElement dropDownYear=driver.findElement(By.cssSelector("#year"));
         for (WebElement each:yearSecenekleri
              ) {
             System.out.println(each.getText());
+        }}
+        @AfterClass
+                public void tearDown(){
+            driver.close();
         }
-
     }
-}
+
+
