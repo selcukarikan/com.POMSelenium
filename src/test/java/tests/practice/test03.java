@@ -14,7 +14,7 @@ public class test03 extends utilities.TestBase {
     // 5) URL'iN "https://www.ntvspor.net/" OLDUGUNU DOGRULA
     // 6) ANA SAYFAYA GERi DON
     @Test
-    public void test(){
+    public void test() throws InterruptedException {
         driver.get("https://www.ntv.com.tr/");
         System.out.println("Sayfa Title :"+driver.getTitle());
 
@@ -50,13 +50,12 @@ public class test03 extends utilities.TestBase {
 
             String expectedUrl="https://www.ntvspor.net/";
             String actualUrl= driver.getCurrentUrl();
-
             softAssert.assertEquals(actualUrl,expectedUrl,"beklenen url ler farkli ");
-
         }
 
-
        softAssert.assertAll();
+        Thread.sleep(3000);
+        driver.switchTo().window(ilkSayfaHandleDegeri);
     }
 
 }
