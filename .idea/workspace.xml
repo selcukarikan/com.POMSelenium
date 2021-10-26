@@ -39,7 +39,7 @@
       <recent name="$PROJECT_DIR$/src/test/java/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.test06">
+  <component name="RunManager" selected="TestNG.test07">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -47,41 +47,6 @@
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C01_ReadExcell.test3" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.SeleniumPOm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day17ExcellAutomation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day17ExcellAutomation" />
-      <option name="MAIN_CLASS_NAME" value="tests.day17ExcellAutomation.C01_ReadExcell" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HrsHotelTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.SeleniumPOm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.practice" />
-      <option name="MAIN_CLASS_NAME" value="tests.practice.HrsHotelTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -156,13 +121,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test07" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.SeleniumPOm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.practice" />
+      <option name="MAIN_CLASS_NAME" value="tests.practice.test07" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test07.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.SeleniumPOm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.practice" />
+      <option name="MAIN_CLASS_NAME" value="tests.practice.test07" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.test07" />
+        <item itemvalue="TestNG.test07.test" />
         <item itemvalue="TestNG.test06" />
         <item itemvalue="TestNG.test06.test" />
         <item itemvalue="TestNG.HrsHotelTest.HrsHotel" />
-        <item itemvalue="TestNG.HrsHotelTest" />
-        <item itemvalue="TestNG.C01_ReadExcell.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -226,6 +226,29 @@
           <url>file://$PROJECT_DIR$/src/test/java/tests/practice/HrsHotelTest.java</url>
           <line>15</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/practice/test06.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/practice/test06.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/practice/test07.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/practice/test06.java</url>
+          <line>10</line>
+          <properties class="tests.practice.test06" method="test">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
