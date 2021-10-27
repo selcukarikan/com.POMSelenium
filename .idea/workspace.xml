@@ -47,7 +47,7 @@
       <recent name="$PROJECT_DIR$/src/test/java/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C01_WriteExcel.test">
+  <component name="RunManager" selected="TestNG./Users/selcuk/javacrashkurs/com.POMSelenium/target/belirliMethodCalistirma.xml">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -71,6 +71,15 @@
       <option name="MAIN_CLASS_NAME" value="tests.day18.C01_WriteExcel" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/selcuk/javacrashkurs/com.POMSelenium/target/belirliMethodCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/target/belirliMethodCalistirma.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -129,23 +138,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test08" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.SeleniumPOm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.practice" />
-      <option name="MAIN_CLASS_NAME" value="tests.practice.test08" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="test08.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.SeleniumPOm" />
       <extension name="coverage">
@@ -166,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/selcuk/javacrashkurs/com.POMSelenium/target/belirliMethodCalistirma.xml" />
         <item itemvalue="TestNG.C01_WriteExcel.test" />
         <item itemvalue="TestNG.demoqa.test" />
         <item itemvalue="TestNG.demoqa" />
         <item itemvalue="TestNG.test08.test" />
-        <item itemvalue="TestNG.test08" />
       </list>
     </recent_temporary>
   </component>
@@ -265,6 +257,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/day18/C01_WriteExcel.java</url>
+          <line>14</line>
+          <properties class="tests.day18.C01_WriteExcel" method="test">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

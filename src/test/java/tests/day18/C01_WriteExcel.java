@@ -32,7 +32,6 @@ public class C01_WriteExcel {
         FileOutputStream fos=new FileOutputStream(path);
         workbook.write(fos);
         //10)Dosyayi kapatalim
-
         fis.close();
         fos.close();
         workbook.close();
