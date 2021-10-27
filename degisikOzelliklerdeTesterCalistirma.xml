@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="degisik ozelliklerde testler calistirma" verbose="8">
+
+    <!--eger clas, package , method gibi farkli ozeliklerde testler calistiaracaksam
+    hiyerarsiye dikkat ederek tum testleri tek tek yazabilirim-->
+
+    <test name="farkli cins testler">
+        <packages>
+            <package name="tests.smokeTest"></package>
+        </packages>
+        <classes>
+            <class name="tests.day17.C01_WebTables"></class>
+            <class name="tests.day14.C03_PositiveTestConfigReaderIle">
+                <methods>
+                    <include name="tests"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
