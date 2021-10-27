@@ -47,7 +47,7 @@
       <recent name="$PROJECT_DIR$/src/test/java/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.demoqa.test">
+  <component name="RunManager" selected="TestNG.C01_WriteExcel.test">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -55,6 +55,24 @@
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C01_WriteExcel.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.SeleniumPOm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day18.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day18" />
+      <option name="MAIN_CLASS_NAME" value="tests.day18.C01_WriteExcel" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -111,24 +129,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test07.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.SeleniumPOm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.practice" />
-      <option name="MAIN_CLASS_NAME" value="tests.practice.test07" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="test08" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.SeleniumPOm" />
       <extension name="coverage">
@@ -166,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C01_WriteExcel.test" />
         <item itemvalue="TestNG.demoqa.test" />
         <item itemvalue="TestNG.demoqa" />
         <item itemvalue="TestNG.test08.test" />
         <item itemvalue="TestNG.test08" />
-        <item itemvalue="TestNG.test07.test" />
       </list>
     </recent_temporary>
   </component>
