@@ -10,7 +10,7 @@ import utilites.Driver;
 
 public class C02_E2ETest {
 
-    @Test
+    @Test(groups = "birinciGrup")
     public void test() throws InterruptedException {
 
 
@@ -31,10 +31,13 @@ public class C02_E2ETest {
 
     //6. Hotel Management/Hotel List menusunden ADD HOTEL butonuna tiklayin
         qaConcortPage.hotelManagementLinki.click();
+        Thread.sleep(3456);
         qaConcortPage.hotelListLink.click();
         qaConcortPage.addHotelCodeKutusu.click();
+        Thread.sleep(3456);
     //7. Açılan sayfadaki tüm metin kutularına istediğiniz verileri girin.
         Actions actions=new Actions(Driver.getDriver());
+        Thread.sleep(3000);
         Faker faker=new Faker();
         actions.click(qaConcortPage.addHotelCodeKutusu)
                 .sendKeys(faker.address().zipCode()).sendKeys(Keys.TAB)
@@ -53,6 +56,7 @@ public class C02_E2ETest {
 
         Assert.assertTrue(qaConcortPage.addHotelSuccesfullYazisi.isDisplayed());
         //10. OK butonuna tıklayın.
+        Thread.sleep(3000);
         qaConcortPage.addHotelAllertOk.click();
         Driver.closeDriver();
     }

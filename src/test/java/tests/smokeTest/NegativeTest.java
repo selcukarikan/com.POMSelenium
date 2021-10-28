@@ -11,7 +11,7 @@ public class NegativeTest {
 
     QAConcortPage qaConcortPage=new QAConcortPage();
 
-    @Test(priority = -5)
+    @Test(priority = -5, groups = "birinciGrup")
     public void falschePassword(){
 
         // 1) smokeTest  paketi altinda yeni bir Class olustur: NegativeTest
@@ -31,7 +31,7 @@ public class NegativeTest {
         qaConcortPage.loginButton.click();
         Assert.assertTrue(qaConcortPage.loginFailedYazisi.isDisplayed());
     }
-    @Test(dependsOnMethods = "falschePassword")
+    @Test(dependsOnMethods = "falschePassword" , groups = "birinciGrup")
     public void falscheUsername(){
         qaConcortPage=new QAConcortPage();
         qaConcortPage.usernameBox.clear();
@@ -42,7 +42,7 @@ public class NegativeTest {
         Assert.assertTrue(qaConcortPage.loginFailedYazisi.isDisplayed());
     }
     @Test(dependsOnMethods = "falschePassword")
-    public void falscheUsernameUndPasswor(){
+    public void falscheUsernameUndPassword(){
         qaConcortPage=new QAConcortPage();
         qaConcortPage.usernameBox.clear();
         qaConcortPage.usernameBox.sendKeys(ConfigReader.getProperty("CHQAInValidUserName"));

@@ -43,11 +43,14 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="utilites" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/selcuk/javacrashkurs/com.POMSelenium/degisikOzelliklerdeTesterCalistirma.xml">
+  <component name="RunManager" selected="TestNG.C01_ReusableMethodsKullanimi">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -59,16 +62,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_WriteExcel.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_ReusableMethodsKullanimi" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.SeleniumPOm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day18.*" />
+          <option name="PATTERN" value="tests.day19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day18" />
-      <option name="MAIN_CLASS_NAME" value="tests.day18.C01_WriteExcel" />
+      <option name="PACKAGE_NAME" value="tests.day19" />
+      <option name="MAIN_CLASS_NAME" value="tests.day19.C01_ReusableMethodsKullanimi" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C01_ReusableMethodsKullanimi.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.SeleniumPOm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day19.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day19" />
+      <option name="MAIN_CLASS_NAME" value="tests.day19.C01_ReusableMethodsKullanimi" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -77,47 +97,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/selcuk/javacrashkurs/com.POMSelenium/belirliClasslariCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.SeleniumPOm" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/belirliClasslariCalistirma.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/selcuk/javacrashkurs/com.POMSelenium/degisikOzelliklerdeTesterCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.SeleniumPOm" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/degisikOzelliklerdeTesterCalistirma.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/selcuk/javacrashkurs/com.POMSelenium/target/belirliMethodCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/target/belirliMethodCalistirma.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="demoqa.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_E2ETest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.SeleniumPOm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.practice.*" />
+          <option name="PATTERN" value="tests.day15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.practice" />
-      <option name="MAIN_CLASS_NAME" value="tests.practice.demoqa" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="tests.day15" />
+      <option name="MAIN_CLASS_NAME" value="tests.day15.C02_E2ETest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/selcuk/javacrashkurs/com.POMSelenium/belirliGruplariCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.SeleniumPOm" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/belirliGruplariCalistirma.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/selcuk/javacrashkurs/com.POMSelenium/tumTestleriCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.SeleniumPOm" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/tumTestleriCalistirma.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -143,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/selcuk/javacrashkurs/com.POMSelenium/degisikOzelliklerdeTesterCalistirma.xml" />
-        <item itemvalue="TestNG./Users/selcuk/javacrashkurs/com.POMSelenium/belirliClasslariCalistirma.xml" />
-        <item itemvalue="TestNG./Users/selcuk/javacrashkurs/com.POMSelenium/target/belirliMethodCalistirma.xml" />
-        <item itemvalue="TestNG.C01_WriteExcel.test" />
-        <item itemvalue="TestNG.demoqa.test" />
+        <item itemvalue="TestNG.C01_ReusableMethodsKullanimi" />
+        <item itemvalue="TestNG.C01_ReusableMethodsKullanimi.test" />
+        <item itemvalue="TestNG./Users/selcuk/javacrashkurs/com.POMSelenium/tumTestleriCalistirma.xml" />
+        <item itemvalue="TestNG.C02_E2ETest" />
+        <item itemvalue="TestNG./Users/selcuk/javacrashkurs/com.POMSelenium/belirliGruplariCalistirma.xml" />
       </list>
     </recent_temporary>
   </component>
