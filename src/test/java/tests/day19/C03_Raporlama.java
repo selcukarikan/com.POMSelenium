@@ -78,7 +78,7 @@ public class C03_Raporlama extends utilities.TestBaseRapor {
         extentTest.info("dropdown dan electronics secildi");
         WebElement aramaKutusu=Driver.getDriver().findElement(By.id("twotabsearchtextbox"));
         aramaKutusu.sendKeys("Java"+Keys.ENTER);
-        extentTest.info("java kelimesi aratildi");
+        extentTest.info("java kelimesi aratildi ");
         // cikan sonuclardan ilkinin isminde java oldugunu test edelim
         WebElement ikinciUrun=Driver.getDriver().findElement(By.xpath("(//div[@class='s-expand-height s-include-content-margin s-latency-cf-section s-border-bottom'])[1]"));
         String ikinciElementYazisi=ikinciUrun.getText();
