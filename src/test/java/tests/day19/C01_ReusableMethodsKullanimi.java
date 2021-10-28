@@ -16,7 +16,6 @@ public class C01_ReusableMethodsKullanimi {
 
         Driver.getDriver().get("https://the-internet.herokuapp.com/windows");
         String ilkSayfaHandleDegeri=Driver.getDriver().getWindowHandle();
-        Driver.getDriver().findElement(By.linkText("Click Here")).click();
 
         Driver.getDriver().findElement(By.linkText("Click Here")).click();
 
@@ -38,5 +37,12 @@ Driver.closeDriver();
 
     }
     @Test
-    public void
+    public void testReusable(){
+        Driver.getDriver().get("https://the-internet.herokuapp.com/windows");
+        Driver.getDriver().findElement(By.linkText("Click Here")).click();
+        utilities.ReusableMethods.switchToWindow("New Window");
+        WebElement newWindowYaziElemnti=Driver.getDriver().findElement(By.tagName("h3"));
+        Assert.assertTrue(newWindowYaziElemnti.isDisplayed());
+        Driver.closeDriver();
+    }
 }

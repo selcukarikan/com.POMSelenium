@@ -19,20 +19,24 @@ public abstract class TestBaseRapor {
     public void setUpTest() {
         extentReports = new ExtentReports();
         //rapor oluştuktan sonra raporunuz nereye eklensin istiyorsanız buraya yazıyorsunuz.
-        String filePath = System.getProperty("user.dir") + "/test-output/Rapor.html";
+        String filePath = System.getProperty("user.dir") + "/raporlar/Rapor.html";
         //oluşturmak istediğimiz raporu (html formatında) başlatıyoruz, filePath ile dosya yolunu belirliyoruz.
         extentHtmlReporter = new ExtentHtmlReporter(filePath);
         extentReports.attachReporter(extentHtmlReporter);
+
+
         // İstediğiniz bilgileri buraya ekeyebiliyorsunuz.
         extentReports.setSystemInfo("Enviroment","QA");
         extentReports.setSystemInfo("Browser", ConfigReader.getProperty("browser")); // chrome, firefox
-        extentReports.setSystemInfo("Automation Engineer", "Mehmet");
-        extentHtmlReporter.config().setDocumentTitle("amazon Arama Testi");
-        extentHtmlReporter.config().setReportName("amazon Arama Automation Reports");
+        extentReports.setSystemInfo("Automation Engineer", "Selcuk");
+        extentHtmlReporter.config().setDocumentTitle("Window Handle Testi");
+        extentHtmlReporter.config().setReportName("Window Handle Testi");
     }
+
     // Her test methodundan sonra eğer testte hata varsa, ekran görüntüsü alıp rapora ekliyor
     @AfterMethod(alwaysRun = true)
     public void tearDownMethod(ITestResult result) throws IOException {
+
         if (result.getStatus() == ITestResult.FAILURE) { // eğer testin sonucu başarısızsa
             String screenshotLocation = utilities.ReusableMethods.getScreenshot(result.getName());
             extentTest.fail(result.getName());
