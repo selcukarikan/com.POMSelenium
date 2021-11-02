@@ -40,7 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -50,7 +50,7 @@
       <recent name="$PROJECT_DIR$/src/test/java/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C03_Raporlama">
+  <component name="RunManager" selected="TestNG.test01.test">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -58,41 +58,6 @@
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C01_ReusableMethodsKullanimi.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.SeleniumPOm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day19.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day19" />
-      <option name="MAIN_CLASS_NAME" value="tests.day19.C01_ReusableMethodsKullanimi" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C02_WindowHandleRaporu" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.SeleniumPOm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day19.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day19" />
-      <option name="MAIN_CLASS_NAME" value="tests.day19.C02_WindowHandleRaporu" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,6 +115,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test01.amazon" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.SeleniumPOm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.practice" />
+      <option name="MAIN_CLASS_NAME" value="test.practice.test01" />
+      <option name="METHOD_NAME" value="amazon" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test01.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.SeleniumPOm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.practice" />
+      <option name="MAIN_CLASS_NAME" value="test.practice.test01" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test03" type="TestNG" nameIsGenerated="true">
       <module name="com.SeleniumPOm" />
       <extension name="coverage">
@@ -169,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.test01.test" />
+        <item itemvalue="TestNG.test01.amazon" />
         <item itemvalue="TestNG.C03_Raporlama" />
         <item itemvalue="TestNG.C03_Raporlama.test2" />
         <item itemvalue="TestNG.C03_Raporlama.test1" />
-        <item itemvalue="TestNG.C02_WindowHandleRaporu" />
-        <item itemvalue="TestNG.C01_ReusableMethodsKullanimi.test" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +261,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/tests/day19/C03_Raporlama.java</url>
-          <line>38</line>
+          <line>39</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
